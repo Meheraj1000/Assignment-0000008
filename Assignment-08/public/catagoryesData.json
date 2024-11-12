@@ -1,0 +1,38 @@
+[
+    {
+      "category_id": "C001",
+      "category": "Electronics",
+      "description": "Devices and gadgets including audio, video, and computing products."
+    },
+    {
+      "category_id": "C002",
+      "category": "Footwear",
+      "description": "Shoes, sandals, and other types of footwear."
+    },
+    {
+      "category_id": "C003",
+      "category": "Kitchen",
+      "description": "Appliances, utensils, and accessories for kitchen and dining."
+    },
+    {
+      "category_id": "C004",
+      "category": "Fitness",
+      "description": "Products for fitness, exercise, and outdoor activities."
+    },
+    {
+      "category_id": "C005",
+      "category": "Health",
+      "description": "Health and personal care products, including grooming and wellness items."
+    },
+    {
+      "category_id": "C006",
+      "category": "Office Supplies",
+      "description": "Products for office and study, including furniture, stationery, and equipment."
+    },
+    {
+      "category_id": "C007",
+      "category": "Tools",
+      "description": "Tools for home improvement and DIY projects, including power tools and accessories."
+    }
+  ]
+  

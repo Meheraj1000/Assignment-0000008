@@ -1,0 +1,244 @@
+[
+  {
+    "product_id": "P001",
+    "product_title": "Wireless Bluetooth Headphones",
+    "product_image": "https://i.ibb.co.com/C157vDh/download-3.jpg",
+    "category": "Electronics",
+    "price": 59.99,
+    "description": "High-quality wireless headphones with noise cancellation.",
+    "specification": [
+      "Bluetooth 5.0",
+      "20 hours battery life",
+      "Noise cancellation",
+      "Over-ear design"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "P002",
+    "product_title": "Smart LED TV 55 inch",
+    "product_image": "https://i.ibb.co.com/vkzS3rJ/download-4.jpg",
+    "category": "Electronics",
+    "price": 699.99,
+    "description": "55-inch 4K UHD Smart LED TV with HDR and Alexa built-in.",
+    "specification": [
+      "4K UHD Resolution",
+      "HDR10 support",
+      "Built-in Alexa",
+      "3 HDMI ports"
+    ],
+    "availability": false,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P003",
+    "product_title": "Running Shoes",
+    "product_image": "https://i.ibb.co.com/Ryg3v1n/download-5.jpg",
+    "category": "Footwear",
+    "price": 79.99,
+    "description": "Comfortable running shoes with high durability and grip.",
+    "specification": [
+      "Breathable mesh upper",
+      "Rubber sole",
+      "Cushioned insole",
+      "Available in multiple colors"
+    ],
+    "availability": true,
+    "rating": 4.3,
+    "sizes_available": ["8", "9", "10", "11"]
+  },
+  {
+    "product_id": "P004",
+    "product_title": "Stainless Steel Water Bottle",
+    "product_image": "https://i.ibb.co.com/FWJvNR7/download-6.jpg",
+    "category": "Kitchen",
+    "price": 19.99,
+    "description": "Eco-friendly stainless steel water bottle with leak-proof design.",
+    "specification": [
+      "Capacity: 750ml",
+      "BPA-free",
+      "Leak-proof cap",
+      "Double-wall insulation"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P005",
+    "product_title": "Electric Kettle",
+    "product_image": "https://i.ibb.co.com/KjBZf5P/download-7.jpg",
+    "category": "Kitchen",
+    "price": 29.99,
+    "description": "1.5L electric kettle with auto shut-off and boil-dry protection.",
+    "specification": [
+      "1.5L capacity",
+      "Stainless steel",
+      "Auto shut-off",
+      "Boil-dry protection"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P006",
+    "product_title": "Yoga Mat",
+    "product_image": "https://i.ibb.co.com/98ZSw8Y/download-8.jpg",
+    "category": "Fitness",
+    "price": 25.99,
+    "description": "Non-slip, cushioned yoga mat for comfortable exercise.",
+    "specification": [
+      "Non-slip surface",
+      "6mm thickness",
+      "Eco-friendly material",
+      "Easy to clean"
+    ],
+    "availability": true,
+    "rating": 4.4,
+    "colors_available": ["Blue", "Purple", "Green"]
+  },
+  {
+    "product_id": "P007",
+    "product_title": "Gaming Mouse",
+    "product_image": "https://i.ibb.co.com/wgCH5TB/download-9.jpg",
+    "category": "Electronics",
+    "price": 34.99,
+    "description": "Ergonomic gaming mouse with adjustable DPI and RGB lighting.",
+    "specification": [
+      "Up to 16000 DPI",
+      "RGB lighting",
+      "Ergonomic design",
+      "6 programmable buttons"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P008",
+    "product_title": "Smartwatch",
+    "product_image": "https://i.ibb.co.com/tcD6d7W/download-10.jpg",
+    "category": "Electronics",
+    "price": 129.99,
+    "description": "Feature-packed smartwatch with fitness tracking and notifications.",
+    "specification": [
+      "Heart rate monitor",
+      "GPS",
+      "Water-resistant",
+      "Sleep tracking"
+    ],
+    "availability": true,
+    "rating": 4.2
+  },
+  {
+    "product_id": "P009",
+    "product_title": "Electric Toothbrush",
+    "product_image": "https://i.ibb.co.com/3ybrzDQ/download-11.jpg",
+    "category": "Health",
+    "price": 49.99,
+    "description": "Rechargeable electric toothbrush with multiple brushing modes.",
+    "specification": [
+      "Rechargeable battery",
+      "3 brushing modes",
+      "2-minute timer",
+      "Soft bristles"
+    ],
+    "availability": false,
+    "rating": 4.5
+  },
+  {
+    "product_id": "P010",
+    "product_title": "Cordless Drill",
+    "product_image": "https://i.ibb.co.com/x7sRVwJ/download-12.jpg",
+    "category": "Tools",
+    "price": 89.99,
+    "description": "Powerful cordless drill with variable speed and 20V battery.",
+    "specification": [
+      "20V lithium battery",
+      "Variable speed",
+      "Lightweight design",
+      "LED work light"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P011",
+    "product_title": "Air Fryer",
+    "product_image": "https://i.ibb.co.com/8j0HZHs/download-13.jpg",
+    "category": "Kitchen",
+    "price": 99.99,
+    "description": "Healthy cooking air fryer with a 4L capacity and rapid air technology.",
+    "specification": [
+      "4L capacity",
+      "Rapid air technology",
+      "Dishwasher-safe parts",
+      "Temperature control"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P012",
+    "product_title": "Laptop Stand",
+    "product_image": "https://i.ibb.co.com/TtryN5q/download-14.jpg",
+    "category": "Office Supplies",
+    "price": 29.99,
+    "description": "Adjustable laptop stand with ergonomic design for comfort.",
+    "specification": [
+      "Adjustable height",
+      "Aluminum alloy",
+      "Ventilated design",
+      "Compatible with 10-15.6 inch laptops"
+    ],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": "P013",
+    "product_title": "Portable Projector",
+    "product_image": "https://i.ibb.co.com/cC8H0R9/download-15.jpg",
+    "category": "Electronics",
+    "price": 199.99,
+    "description": "Compact portable projector with HD resolution and built-in speakers.",
+    "specification": [
+      "1080p resolution",
+      "Built-in speakers",
+      "HDMI, USB, and AV input",
+      "Portable design"
+    ],
+    "availability": false,
+    "rating": 4.5
+  },
+  {
+    "product_id": "P014",
+    "product_title": "Wireless Charger",
+    "product_image": "https://i.ibb.co.com/6Z1nzLq/download-16.jpg",
+    "category": "Electronics",
+    "price": 15.99,
+    "description": "Fast wireless charger compatible with all Qi-enabled devices.",
+    "specification": [
+      "10W fast charging",
+      "Compatible with Qi-enabled devices",
+      "LED indicator",
+      "Compact design"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "P015",
+    "product_title": "Desk Lamp with USB Charging",
+    "product_image": "https://i.ibb.co.com/b3nTMHV/download-17.jpg",
+    "category": "Office Supplies",
+    "price": 24.99,
+    "description": "LED desk lamp with adjustable brightness and USB charging port.",
+    "specification": [
+      "3 brightness levels",
+      "USB charging port",
+      "Touch control",
+      "Foldable design"
+    ],
+    "availability": true,
+    "rating": 4.6
+  }
+]
