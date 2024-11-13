@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 
 
 const Cart = ({ product }) => {
+    
     const { product_image,product_id, category, product_title, price } = product || {}
     return (
         

@@ -1,7 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import { Toaster } from 'react-hot-toast';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -13,43 +12,53 @@ import ProductCart from './ProductCart';
 import ProductDetails from './ProductDetails';
 
 
-
+const fetchProducts = async () => {
+  try {
+    const response = await fetch('/productData.json');
+    return await response.json();
+  } catch (error) {
+    console.error('Error fetching product data:', error);
+  }
+}
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home></Home>,
-    loader:()=>fetch('catagoryesData.json'),
-    children:[
+    loader: async () => {
+      const response = await fetch('/catagoryesData.json');
+      return response.json();
+    },
+    children: [
       {
-        path:'/',
-        element:<ProductCart></ProductCart>,
-        loader:()=>fetch('productData.json')
+        path: '/',
+        element: <ProductCart></ProductCart>,
+        loader: fetchProducts
       },
       {
-        path:'/category/:category',
-        element:<ProductCart></ProductCart>,
-        loader:()=>fetch('productData.json')
+        path: '/category/:category',
+        element: <ProductCart></ProductCart>,
+        loader: fetchProducts,
       }
     ]
   },
   {
     path: '/ststistics',
     element: <Ststistics></Ststistics>,
-    loader:()=>fetch('productData.json')
+    loader: () => fetch('productData.json')
   },
   {
     path: '/dashbord',
     element: <DashBord></DashBord>,
-   // loader:()=>fetch('productData.json')
-    
+    // loader:()=>fetch('productData.json')
+
   },
   {
-    path:'/product/:product_id',
-    element:<ProductDetails></ProductDetails>,
-    loader:()=>fetch('productData.json')
+    path: '/product/:product_id',
+    element: <ProductDetails></ProductDetails>,
+    loader: () => fetch('productData.json')
   },
-  
+
 ]);
 
 
